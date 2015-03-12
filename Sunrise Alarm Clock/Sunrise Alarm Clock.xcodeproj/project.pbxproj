@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D82C12A81AB1D8930011CAED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82C12A71AB1D8930011CAED /* AppDelegate.swift */; };
+		D82C12AA1AB1D8930011CAED /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82C12A91AB1D8930011CAED /* MasterViewController.swift */; };
+		D82C12AC1AB1D8930011CAED /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82C12AB1AB1D8930011CAED /* DetailViewController.swift */; };
+		D82C12AF1AB1D8930011CAED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82C12AD1AB1D8930011CAED /* Main.storyboard */; };
+		D82C12B11AB1D8930011CAED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82C12B01AB1D8930011CAED /* Images.xcassets */; };
+		D82C12B41AB1D8930011CAED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D82C12B21AB1D8930011CAED /* LaunchScreen.xib */; };
+		D82C12C01AB1D8930011CAED /* Sunrise_Alarm_ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82C12BF1AB1D8930011CAED /* Sunrise_Alarm_ClockTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D82C12BA1AB1D8930011CAED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D82C129A1AB1D8920011CAED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D82C12A11AB1D8930011CAED;
+			remoteInfo = "Sunrise Alarm Clock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D82C12A21AB1D8930011CAED /* Sunrise Alarm Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sunrise Alarm Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82C12A61AB1D8930011CAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D82C12A71AB1D8930011CAED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D82C12A91AB1D8930011CAED /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		D82C12AB1AB1D8930011CAED /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D82C12AE1AB1D8930011CAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D82C12B01AB1D8930011CAED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D82C12B31AB1D8930011CAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D82C12B91AB1D8930011CAED /* Sunrise Alarm ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sunrise Alarm ClockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82C12BE1AB1D8930011CAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D82C12BF1AB1D8930011CAED /* Sunrise_Alarm_ClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sunrise_Alarm_ClockTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D82C129F1AB1D8930011CAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82C12B61AB1D8930011CAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D82C12991AB1D8920011CAED = {
+			isa = PBXGroup;
+			children = (
+				D82C12A41AB1D8930011CAED /* Sunrise Alarm Clock */,
+				D82C12BC1AB1D8930011CAED /* Sunrise Alarm ClockTests */,
+				D82C12A31AB1D8930011CAED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D82C12A31AB1D8930011CAED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D82C12A21AB1D8930011CAED /* Sunrise Alarm Clock.app */,
+				D82C12B91AB1D8930011CAED /* Sunrise Alarm ClockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D82C12A41AB1D8930011CAED /* Sunrise Alarm Clock */ = {
+			isa = PBXGroup;
+			children = (
+				D82C12A71AB1D8930011CAED /* AppDelegate.swift */,
+				D82C12A91AB1D8930011CAED /* MasterViewController.swift */,
+				D82C12AB1AB1D8930011CAED /* DetailViewController.swift */,
+				D82C12AD1AB1D8930011CAED /* Main.storyboard */,
+				D82C12B01AB1D8930011CAED /* Images.xcassets */,
+				D82C12B21AB1D8930011CAED /* LaunchScreen.xib */,
+				D82C12A51AB1D8930011CAED /* Supporting Files */,
+			);
+			path = "Sunrise Alarm Clock";
+			sourceTree = "<group>";
+		};
+		D82C12A51AB1D8930011CAED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D82C12A61AB1D8930011CAED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D82C12BC1AB1D8930011CAED /* Sunrise Alarm ClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				D82C12BF1AB1D8930011CAED /* Sunrise_Alarm_ClockTests.swift */,
+				D82C12BD1AB1D8930011CAED /* Supporting Files */,
+			);
+			path = "Sunrise Alarm ClockTests";
+			sourceTree = "<group>";
+		};
+		D82C12BD1AB1D8930011CAED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D82C12BE1AB1D8930011CAED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D82C12A11AB1D8930011CAED /* Sunrise Alarm Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82C12C31AB1D8930011CAED /* Build configuration list for PBXNativeTarget "Sunrise Alarm Clock" */;
+			buildPhases = (
+				D82C129E1AB1D8930011CAED /* Sources */,
+				D82C129F1AB1D8930011CAED /* Frameworks */,
+				D82C12A01AB1D8930011CAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sunrise Alarm Clock";
+			productName = "Sunrise Alarm Clock";
+			productReference = D82C12A21AB1D8930011CAED /* Sunrise Alarm Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D82C12B81AB1D8930011CAED /* Sunrise Alarm ClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82C12C61AB1D8930011CAED /* Build configuration list for PBXNativeTarget "Sunrise Alarm ClockTests" */;
+			buildPhases = (
+				D82C12B51AB1D8930011CAED /* Sources */,
+				D82C12B61AB1D8930011CAED /* Frameworks */,
+				D82C12B71AB1D8930011CAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D82C12BB1AB1D8930011CAED /* PBXTargetDependency */,
+			);
+			name = "Sunrise Alarm ClockTests";
+			productName = "Sunrise Alarm ClockTests";
+			productReference = D82C12B91AB1D8930011CAED /* Sunrise Alarm ClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D82C129A1AB1D8920011CAED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "David Jacob";
+				TargetAttributes = {
+					D82C12A11AB1D8930011CAED = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D82C12B81AB1D8930011CAED = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D82C12A11AB1D8930011CAED;
+					};
+				};
+			};
+			buildConfigurationList = D82C129D1AB1D8920011CAED /* Build configuration list for PBXProject "Sunrise Alarm Clock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D82C12991AB1D8920011CAED;
+			productRefGroup = D82C12A31AB1D8930011CAED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D82C12A11AB1D8930011CAED /* Sunrise Alarm Clock */,
+				D82C12B81AB1D8930011CAED /* Sunrise Alarm ClockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D82C12A01AB1D8930011CAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82C12AF1AB1D8930011CAED /* Main.storyboard in Resources */,
+				D82C12B41AB1D8930011CAED /* LaunchScreen.xib in Resources */,
+				D82C12B11AB1D8930011CAED /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82C12B71AB1D8930011CAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D82C129E1AB1D8930011CAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82C12AC1AB1D8930011CAED /* DetailViewController.swift in Sources */,
+				D82C12AA1AB1D8930011CAED /* MasterViewController.swift in Sources */,
+				D82C12A81AB1D8930011CAED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82C12B51AB1D8930011CAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82C12C01AB1D8930011CAED /* Sunrise_Alarm_ClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D82C12BB1AB1D8930011CAED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D82C12A11AB1D8930011CAED /* Sunrise Alarm Clock */;
+			targetProxy = D82C12BA1AB1D8930011CAED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D82C12AD1AB1D8930011CAED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D82C12AE1AB1D8930011CAED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D82C12B21AB1D8930011CAED /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D82C12B31AB1D8930011CAED /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D82C12C11AB1D8930011CAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D82C12C21AB1D8930011CAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D82C12C41AB1D8930011CAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Sunrise Alarm Clock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D82C12C51AB1D8930011CAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Sunrise Alarm Clock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D82C12C71AB1D8930011CAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sunrise Alarm ClockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sunrise Alarm Clock.app/Sunrise Alarm Clock";
+			};
+			name = Debug;
+		};
+		D82C12C81AB1D8930011CAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sunrise Alarm ClockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sunrise Alarm Clock.app/Sunrise Alarm Clock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D82C129D1AB1D8920011CAED /* Build configuration list for PBXProject "Sunrise Alarm Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82C12C11AB1D8930011CAED /* Debug */,
+				D82C12C21AB1D8930011CAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D82C12C31AB1D8930011CAED /* Build configuration list for PBXNativeTarget "Sunrise Alarm Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82C12C41AB1D8930011CAED /* Debug */,
+				D82C12C51AB1D8930011CAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D82C12C61AB1D8930011CAED /* Build configuration list for PBXNativeTarget "Sunrise Alarm ClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82C12C71AB1D8930011CAED /* Debug */,
+				D82C12C81AB1D8930011CAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D82C129A1AB1D8920011CAED /* Project object */;
+}
